@@ -40,7 +40,7 @@ function App() {
       {tweetsArray.map((elem,i) => {
         return (
           <div key={i}>
-            <Tweet tweet={elem} /*user={elem.user} timestamp={elem.timestamp} message={elem.message}*//> 
+            <Tweet tweet={elem}/> 
           </div>
         );
       })};
